@@ -22,8 +22,7 @@
       {
         "group": "Getting started",
         "pages": [
-          "index",
-          "migrating-from-another-ats"
+          "index"
         ],
         "icon": "rocket"
       },
@@ -51,7 +50,8 @@
         "pages": [
           "slack",
           "email-forwarding",
-          "mcp-server"
+          "mcp-server",
+          "migrating-from-another-ats"
         ]
       },
       {
