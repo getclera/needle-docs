@@ -1,29 +1,68 @@
 ---
 title: "Migrating from another ATS"
-description: "Moving to Needle from another applicant tracking system? We'll do the move with you."
+description: "Moving to Needle from Ashby or another applicant tracking system? We do the move with you."
 icon: "arrow-right-left"
-keywords: ["migration", "switch ATS", "import candidates", "move from another ATS", "data migration"]
+keywords: ["migration", "switch ATS", "import candidates", "Ashby import", "move from another ATS", "data migration"]
 ---
 
-Switching applicant tracking systems shouldn't mean starting from zero. We don't have a self-serve import yet. Instead, we run every migration together with your team, so nothing gets lost on the way over.
-
-## Reach out to start
+Switching applicant tracking systems shouldn't mean starting from zero. We run every migration together with your team. There's no self-serve import, so start by reaching out.
 
 <Card title="Email the team" icon="mail" href="mailto:support@needle.so?subject=ATS%20migration">
   Write to [**support@needle.so**](mailto:support@needle.so?subject=ATS%20migration). If your team shares a Slack channel with us, post there instead.
 </Card>
 
-## What to include
+## Coming from Ashby
 
-- **Your current ATS**, for example Greenhouse, Ashby, Lever, Workable, or Personio.
-- **What you want to bring over:** open jobs, candidates, pipeline stages, notes and feedback, or your careers page.
+We've moved several teams from Ashby and have a tested import for it. All we need from you is an **Ashby API key** with read access to your jobs, candidates, and interviews. Create one in Ashby's admin settings and share it with us securely.
+
+### What comes over
+
+- **Jobs**: the exact job description from your Ashby posting, plus location and employment type.
+- **Pipeline stages**: built per job from your real Ashby interview plan, not generic defaults. We show you the proposed stages before creating them.
+- **Candidates**: contact details, LinkedIn URL, source, and their current stage in each job.
+- **CVs**: every resume stored in Ashby.
+- **Application forms**: your careers-page questions, and each applicant's answers on their profile.
+- **Notes**: candidate notes with their author and original date, so the timeline reads the same.
+- **Interview feedback**: past feedback and scorecards appear as completed interviews, linked to the stage they happened in.
+- **Archived candidates**, with their archive reasons.
+- **Interview prep**: question lists and guidance go into each stage's interview preparation.
+
+### What we set up after the import
+
+- **Careers pages** are imported unpublished. You review them, then publish.
+- **Candidate profiles** are completed from their CVs and LinkedIn, so company and current role are filled in.
+- **[Screening](/screening) criteria** are proposed for each job, and applicants waiting for review are evaluated against them.
+
+### Good to know
+
+- **Email templates and stage automations** aren't available through Ashby's API. Show us the ones you use, and we add them to each stage's follow-up actions.
+- **Teammates** don't carry over as accounts. Invite your team to Needle. Notes keep the original author's name.
+- **Dropdown and date questions** on application forms become free-text questions in Needle.
+- **Custom candidate fields** are kept on the candidate profile, but not as separate Needle fields.
+- **Open jobs move first**, closed jobs after, so live hiring isn't held up.
+- **Still hiring in Ashby during the switch?** We re-run the import to pick up what changed. Candidates are matched by email, then by LinkedIn URL, so nobody is duplicated.
+
+## Coming from another ATS
+
+Greenhouse, Lever, Workable, Personio, or something else: email us anyway. We'll look at what your current system can export and agree with you on what moves.
+
+## What to send us
+
+- **Your current ATS**, and for Ashby, the API key.
+- **What you want to bring over**, for example open jobs only, or your full history.
 - **Your timeline**, including any date your current contract ends.
 - **Who on your team** we should work with.
 
-## What happens next
+## How it works
 
-1. We set up a short call to agree on what moves and in what order.
-2. We plan the move around your hiring, so live roles keep running while it happens.
-3. You check the result in Needle before you switch off the old system.
-
-Not sure yet whether to switch? Email us anyway. We're happy to talk it through first.
+<Steps>
+  <Step title="Kickoff call">
+    We agree on what moves, in what order, and how your pipeline stages should look in Needle.
+  </Step>
+  <Step title="Import">
+    We move your open jobs first, then closed jobs, while your hiring keeps running.
+  </Step>
+  <Step title="Check together">
+    We compare job, candidate, and application counts with your old system. You review everything in Needle before you switch the old system off.
+  </Step>
+</Steps>
